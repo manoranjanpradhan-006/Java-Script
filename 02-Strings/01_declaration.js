@@ -1,13 +1,3 @@
-// number -> 2^53
-// bigInt
-// string -> ""
-// boolean -> true/false
-// null -> standalone value
-// undefined
-// symbol -> unique
-
-//object
-
 const string = "chinu";
 const string2 = new String("Manoranjan");
 
