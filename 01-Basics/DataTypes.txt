@@ -1,0 +1,29 @@
+Primitive Data Types :-
+         1.String
+         2.Number
+         3.Boolean
+         4.null
+         5.undefined
+         6.symbol
+         7.BigInt
+
+Primitive Data Types :-
+         1.Arrays: 
+            ->(return type is object)
+
+         2.Objects: 
+            ->(return type is object)
+
+         3.Functions: 
+            ->(return type is function object)
+
+const Arrays = ["", "", "", ""]
+
+const Objects = {
+    name: "Manoranjan Pradhan",
+    age: 22
+}
+
+const myFunction = function(){
+    console.log("Hello World")
+}

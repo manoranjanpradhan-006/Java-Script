@@ -1,0 +1,13 @@
+1. Stack Memory :-
+    -> used in primitive data types
+    -> it provides a copy of the variable
+    -> so, changes doesnot affect on the original variables 
+    ->
+    ->
+
+2. Heap Memory :-
+    -> used in non-primitive data types
+    -> it provides the Memory reference of the variable
+    -> changes affect the original variable coz thr value is changed on the memory location
+    ->
+    ->
