@@ -23,3 +23,21 @@ function tea(type) {
 
 let lemonTea = new tea("LemonTea");
 // console.log(lemonTea.describe());
+
+function Animal(species) {
+  this.species = species;
+}
+
+Animal.prototype.sound = function () {
+  return `${this.species} Makes a sound.`;
+};
+
+let dog = new Animal("Dog");
+
+console.log(dog);
+console.log(dog.sound());
+
+let cat = new Animal("Cat");
+
+console.log(cat);
+console.log(cat.sound());
