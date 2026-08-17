@@ -9,11 +9,17 @@ function car(make, model) {
 }
 
 let myCar = new car("Toyota", "Camry");
-console.log(myCar);
+// console.log(myCar);
 
 let myNewCar = new car("Tata", "Safari");
-console.log(myNewCar);
+// console.log(myNewCar);
 
-function greet() {
-  console.log("Hello, ");
+function tea(type) {
+  this.type = type;
+  this.describe = function () {
+    return `This is a cup of ${this.type}.`;
+  };
 }
+
+let lemonTea = new tea("LemonTea");
+// console.log(lemonTea.describe());
