@@ -11,3 +11,5 @@ document.querySelector(".tealist").addEventListener("click", function (event) {
     alert(event.target.textContent);
   }
 });
+
+document.getElementById("click");
