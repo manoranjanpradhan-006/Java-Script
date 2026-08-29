@@ -19,6 +19,8 @@ myArr.unshift("mad");
 // console.log(myArr);
 
 myArr.shift();
+myArr.shift();
+myArr.shift();
 
 // console.log(myArr);
 
