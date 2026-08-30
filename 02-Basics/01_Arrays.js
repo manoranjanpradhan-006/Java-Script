@@ -20,7 +20,7 @@ myArr.unshift("mad");
 
 myArr.shift();
 
-console.log(myArr);
+// console.log(myArr);
 
 // console.log(myArr.includes(6));
 
